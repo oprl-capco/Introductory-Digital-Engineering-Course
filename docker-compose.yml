@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo
+    container_name: training-mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - data:/data
+
+volumes:
+  data: {}
+
+networks:
+  default:
+    name: mongodb_network
+
+
