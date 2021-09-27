@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 
-public class IntegrationTests {
+public class TestEndpoints {
 
     private User user;
     private JSONObject foo;

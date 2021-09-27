@@ -4,7 +4,7 @@ import net.minidev.json.JSONObject;
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
-public class UserTests {
+public class TestUserClass {
 
 
     private User user;
